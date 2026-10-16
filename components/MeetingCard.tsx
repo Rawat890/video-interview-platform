@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/
 import { CalendarIcon } from "lucide-react";
 import { Badge } from "./ui/badge";
 import { Button } from "./ui/button";
-import useMeetingActions from "@/hooks/import useMeetingActions";
+import useMeetingActions from "@/hooks/useMeetingActions";
 import { Doc } from "@/convex/_generated/dataModel";
 
 type Interview = Doc<"interviews">;
