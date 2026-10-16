@@ -13,7 +13,7 @@ function DasboardBtn() {
   return (
     <Link href={"/dashboard"}>
       <Button className="gap-2 font-medium" size={"sm"}>
-        <SparklesIcon className="size-4" />
+        <SparklesIcon className="size-4 text-amber-950" />
         Dashboard
       </Button>
     </Link>

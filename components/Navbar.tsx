@@ -21,14 +21,16 @@ function Navbar() {
 
         {/* <SignedInButton> */}
         <div className="flex items-center space-x-4 ml-auto">
-          <DasboardBtn />
-          <ModeToggle />
-          <UserButton />
           <Show when="signed-out">
+            <ModeToggle />
             <SignInButton />
             <SignUpButton />
           </Show>
+        </div>
+        <div className="flex items-center space-x-4 ml-auto">
           <Show when="signed-in">
+            <DasboardBtn />
+            <ModeToggle />
             <UserButton />
           </Show>
         </div>
